@@ -1,0 +1,28 @@
+#caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    background-color: rgb(241, 241, 241);
+    width: 400px;
+    height: 700px;
+}
+#note{
+    font-style: italic;
+    font-size: 13px;
+    color: red;
+}
+#btn1, #btn2{
+    height: 30px;
+    width: 130px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+#btn1 {
+    background-color: rgb(187, 184, 184);
+}
+#btn2{
+    background-color: rgb(70, 187, 255);
+}

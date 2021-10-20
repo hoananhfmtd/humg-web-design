@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HUMG web design</title>
+</head>
+<body>
+    <form>
+        <table align="center">
+            <tr><td id="caption">Thông tin thương nhân</td></tr>
+            <tr>
+                <td>Chọn đối tượng đăng ký</td>
+                <td>
+                    <select>
+                        <option>Thương nhân</option>
+                        <option>Công chức</option>
+                        <option>Công nhân</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="note" colspan="2">
+                    <p>(Đề nghị chọn đúng đối tượng, trường hợp chọn sai sẽ phải khai lại toàn bộ hồ sơ)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Tên Thương nhân (Công ty,<br> Tập đoàn,...):</td>
+                <td><input type="text" placeholder="Công ty TNHH LA Food" required=""></td>
+            </tr>
+            <tr>
+                <td>Tên giao dịch:</td>
+                <td><input type="text" placeholder="LA Food"></td>
+            </tr>
+            <tr>
+                <td>Mã số thuế</td>
+                <td><input type="text" placeholder="0123456" required=""></td>
+            </tr>
+            <tr>
+                <td>Đăng ký kinh doanh (Trong trường
+                    <br>hợp khác với MST):
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td required="">Ngày cấp ĐKKD:</td>
+                <td><input type="date" id="theDate"></td>
+            </tr>
+            <tr>
+                <td>Lĩnh vực kinh doanh:</td>
+                <td><input type="text" placeholder="Thiết kế website"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ thương nhân:</td>
+                <td><input type="text" placeholder="713/29 Lê Đức Thọ P16 Gò Vấp HCM" 
+                    required=""></td>
+            </tr>
+            <tr>
+                <td required="">Quốc gia:</td>
+                <td>
+                    <select>
+                        <option>Việt Nam</option>
+                        <option>Nga</option>
+                        <option>Đức</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tỉnh/Thành phố:</td>
+                <td>
+                    <select>
+                        <option>Hồ Chí Minh</option>
+                        <option>Moscow</option>
+                        <option>Berlin</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ thương nhân ghi trên hóa<br>đơn:</td>
+                <td><input type="text" placeholder="28 Nguyễn Tử Nha, P.12, Quận Tân Bình" required=""></td>
+            </tr>
+            <tr>
+                <td>Điện thoại:</td>
+                <td><input type="tel" pattern="[0]{1}" placeholder="0123456789" required=""></td>
+            </tr>
+            <tr>
+                <td>Fax:</td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td align="right"><button id="btn1" type="reset">Xóa tất cả</button></td>
+                <td><button id="btn2" type="submit">Gửi đăng ký</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>
